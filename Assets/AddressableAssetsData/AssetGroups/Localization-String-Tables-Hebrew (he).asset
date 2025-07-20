@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-String-Tables-Hebrew (he)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-String-Tables-Hebrew (he)
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 13d25207da3722742b9f43d3d8b2c90a
+  m_SerializeEntries:
+  - m_GUID: 0d296271fb2ffc44caffee989e46bbfa
+    m_Address: ActionSheet_he
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-he
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4496edbb87f4128408c23b6b09455d25
+    m_Address: SYSTEM_ADMINISTRATOR_he
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-he
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 496601900e8e93e4da297c285da9d989
+    m_Address: Add Edit Building_he
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-he
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4c521f98c8fc65243aed966e4e646662
+    m_Address: CreateAccount_Screen2_he
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-he
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a78c8646be0f384380b01f8b0b30987
+    m_Address: ErrorMessages_he
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-he
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 83d01c500d504d14686c904a264824b5
+    m_Address: prefabs_teble_he
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-he
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8469d1d11a8d7394ba5bf61c3e0baed1
+    m_Address: CreateAccount_Screen1_he
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-he
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b0131430706ac61468096cb10e0ce66a
+    m_Address: ARnavigation_he
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-he
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c2ad19ac9fd631844a7cf516aa0ff2d7
+    m_Address: BuildingsList_he
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-he
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ce854a9ce68d9fa489fb0844e2e7215d
+    m_Address: RequestToManage_he
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-he
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d8aa3545124f499459b1de0196f1e3e7
+    m_Address: LoginScreen_he
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-he
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f8f3977cfbbdde1409fc5e9930d7bbbc
+    m_Address: Home_screen_he
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-he
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: dd265505c2c555b42acd0e03b1910caf, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 8d64a9c7f79ec8c46b3370f32e68ae22, type: 2}
+    - {fileID: 11400000, guid: fe9b7f0d05aea3d45b5a605d6e12b62b, type: 2}
