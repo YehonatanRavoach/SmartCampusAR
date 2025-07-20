@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: CreateAccount_Screen2 Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: CreateAccount_Screen2
+  m_TableCollectionNameGuidString: e2ab2f2c2c054dd4283072a377dc84ed
+  m_Entries:
+  - m_Id: 79236472832
+    m_Key: CampusName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 645131968512
+    m_Key: CampusName_Field
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1068647620608
+    m_Key: DescriptionName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1181692502016
+    m_Key: Description_Field
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1587432693760
+    m_Key: CountryName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1702906077184
+    m_Key: CityName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2450888892416
+    m_Key: CityName_Field
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2714941300736
+    m_Key: CountryName_Field
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3130613604352
+    m_Key: CampusLogo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3618004312064
+    m_Key: CampusMap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4205894737920
+    m_Key: Previous
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4291555008512
+    m_Key: Submit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10569979305984
+    m_Key: ChooseFile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288662018658304
+    m_Key: placeholder_campus_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288740741550080
+    m_Key: placeholder_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288816620703744
+    m_Key: placeholder_country
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288873298333696
+    m_Key: placeholder_city
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 1863022843992211458
+  references:
+    version: 2
+    RefIds:
+    - rid: 1863022843992211458
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1750352313276

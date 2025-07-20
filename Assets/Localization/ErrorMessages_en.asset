@@ -1,0 +1,211 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: ErrorMessages_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: d9a7cc8d9dcdee34d85ae22150beabc2, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 4878228590592
+    m_Localized: Building created successfully!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13280375803904
+    m_Localized: Building updated successfully!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14655637753856
+    m_Localized: Building name is required
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91748664938496
+    m_Localized: Longitude is required
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92039183405056
+    m_Localized: Latitude is required
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94544088862720
+    m_Localized: Please fill out all required fields before going to map panel!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94940815495168
+    m_Localized: Please wait...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95012554870784
+    m_Localized: Please select a location on the map before saving!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95115810246656
+    m_Localized: 'Error adding building: '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95246135660544
+    m_Localized: 'Error updating building: '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116559529185280
+    m_Localized: Welcome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116475626328064
+    m_Localized: User not found
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116410501369856
+    m_Localized: Your registration was rejected
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116328125239296
+    m_Localized: Waiting for approval
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116268968775680
+    m_Localized: "Wrong password\t"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116606379560960
+    m_Localized: Login failed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116684322312192
+    m_Localized: Token error
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116735144693760
+    m_Localized: Your account has not been approved
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116803809644544
+    m_Localized: Missing campus assignment
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116863905632256
+    m_Localized: Unknown account status
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116940191633408
+    m_Localized: Invalid role
+    m_Metadata:
+      m_Items: []
+  - m_Id: 357149055455232
+    m_Localized: "Name is required\t"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 357188398026752
+    m_Localized: Role is required
+    m_Metadata:
+      m_Items: []
+  - m_Id: 357276746846208
+    m_Localized: Email is required
+    m_Metadata:
+      m_Items: []
+  - m_Id: 357357407506432
+    m_Localized: Enter a valid email
+    m_Metadata:
+      m_Items: []
+  - m_Id: 357418937946112
+    m_Localized: Unable to verify email.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 357492162105344
+    m_Localized: Email already registered.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 357557182205952
+    m_Localized: Password is required.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 357631979229184
+    m_Localized: At least 6 characters.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 357711985577984
+    m_Localized: Repeat password.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 357776066154496
+    m_Localized: Passwords do not match.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 361517972525056
+    m_Localized: "No file chosen\t"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 361581176492032
+    m_Localized: File is empty or missing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 361646720880640
+    m_Localized: Invalid file format
+    m_Metadata:
+      m_Items: []
+  - m_Id: 361719408168960
+    m_Localized: 'Selected File: {filename}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 367189887881216
+    m_Localized: Choose a file
+    m_Metadata:
+      m_Items: []
+  - m_Id: 379841775210496
+    m_Localized: Campus name is required.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 379894887682048
+    m_Localized: "Campus name must be 3\u201320 characters."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 379972591357952
+    m_Localized: "Unable to verify name. Try again.\t"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380043529621504
+    m_Localized: "This campus name already exists.\t"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380099263533056
+    m_Localized: "Description is required.\t"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380169421656064
+    m_Localized: "Description is too short.\t"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 435963739574272
+    m_Localized: Please attach a profile photo*
+    m_Metadata:
+      m_Items: []
+  - m_Id: 446267676495872
+    m_Localized: Are you sure you want to delete this campus?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 447374221971456
+    m_Localized: Are you sure you want to delete admin?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 449118012248064
+    m_Localized: Are you sure you want to delete this building?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1435641440440320
+    m_Localized: Attach profile photo
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

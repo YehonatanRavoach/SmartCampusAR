@@ -1,0 +1,217 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: ErrorMessages Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: ErrorMessages
+  m_TableCollectionNameGuidString: d9a7cc8d9dcdee34d85ae22150beabc2
+  m_Entries:
+  - m_Id: 4878228590592
+    m_Key: success_building_saved
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13280375803904
+    m_Key: success_building_edit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14655637753856
+    m_Key: err_building_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91748664938496
+    m_Key: lon_required
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92039183405056
+    m_Key: lat_required
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94544088862720
+    m_Key: fill_all_fields
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94940815495168
+    m_Key: please_wait
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95012554870784
+    m_Key: select_location_first
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95115810246656
+    m_Key: err_add_prefix
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95246135660544
+    m_Key: err_update_prefix
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116268968775680
+    m_Key: err_wrong_password
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116328125239296
+    m_Key: info_waiting_approval
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116410501369856
+    m_Key: err_registration_rejected
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116475626328064
+    m_Key: err_user_not_found
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116559529185280
+    m_Key: msg_login_success
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116606379560960
+    m_Key: err_login_failed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116684322312192
+    m_Key: err_token
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116735144693760
+    m_Key: err_no_role
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116803809644544
+    m_Key: err_missing_campus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116863905632256
+    m_Key: err_account_status
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116940191633408
+    m_Key: err_invalid_role
+    m_Metadata:
+      m_Items: []
+  - m_Id: 357149055455232
+    m_Key: err_name_required
+    m_Metadata:
+      m_Items: []
+  - m_Id: 357188398026752
+    m_Key: err_role_required
+    m_Metadata:
+      m_Items: []
+  - m_Id: 357276746846208
+    m_Key: err_email_required
+    m_Metadata:
+      m_Items: []
+  - m_Id: 357357407506432
+    m_Key: err_email_invalid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 357418937946112
+    m_Key: err_email_verify_failed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 357492162105344
+    m_Key: err_email_exists
+    m_Metadata:
+      m_Items: []
+  - m_Id: 357557182205952
+    m_Key: err_password_required
+    m_Metadata:
+      m_Items: []
+  - m_Id: 357631979229184
+    m_Key: err_password_too_short
+    m_Metadata:
+      m_Items: []
+  - m_Id: 357711985577984
+    m_Key: err_password_repeat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 357776066154496
+    m_Key: err_password_mismatch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 361517972525056
+    m_Key: file_none_selected
+    m_Metadata:
+      m_Items: []
+  - m_Id: 361581176492032
+    m_Key: file_missing_or_empty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 361646720880640
+    m_Key: file_invalid_format
+    m_Metadata:
+      m_Items: []
+  - m_Id: 361719408168960
+    m_Key: file_selected
+    m_Metadata:
+      m_Items: []
+  - m_Id: 367189887881216
+    m_Key: err_Choose
+    m_Metadata:
+      m_Items: []
+  - m_Id: 379841775210496
+    m_Key: err_campus_name_required
+    m_Metadata:
+      m_Items: []
+  - m_Id: 379894887682048
+    m_Key: err_campus_name_length
+    m_Metadata:
+      m_Items: []
+  - m_Id: 379972591357952
+    m_Key: err_campus_name_verify_failed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380043529621504
+    m_Key: err_campus_name_exists
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380099263533056
+    m_Key: err_description_required
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380169421656064
+    m_Key: err_description_too_short
+    m_Metadata:
+      m_Items: []
+  - m_Id: 435963739574272
+    m_Key: err_photo_required
+    m_Metadata:
+      m_Items: []
+  - m_Id: 446267676495872
+    m_Key: confirm_delete_campus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 447374221971456
+    m_Key: confirm_delete_admin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 449118012248064
+    m_Key: confirm_delete_building
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1435641440440320
+    m_Key: photo_hint
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8124408404408795140
+  references:
+    version: 2
+    RefIds:
+    - rid: 8124408404408795140
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1750330255941

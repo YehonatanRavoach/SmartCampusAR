@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Add Edit Building_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 588f7d8a3dea7fe42b04c735fec0d08c, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 21329416192
+    m_Localized: Add/Edit Building
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1134153764864
+    m_Localized: Provide details for the building
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1281273171968
+    m_Localized: Building Name*
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1378958512128
+    m_Localized: Enter building name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2789138042880
+    m_Localized: Description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3097440358400
+    m_Localized: Enter a short description (optional)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4426242002944
+    m_Localized: Mark Location
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4495309606912
+    m_Localized: Latitude*
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4588666425344
+    m_Localized: Longitude*
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4656840642560
+    m_Localized: Enter latitude (e.g., 34.0522)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4751220871168
+    m_Localized: Enter longitude (e.g., 35.2137)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4850072227840
+    m_Localized: Choose File
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4899636318208
+    m_Localized: Cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4995488747520
+    m_Localized: Next
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87935082106880
+    m_Localized: Place building markers on campus map
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88148190498816
+    m_Localized: "Tap on a building for details\t"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88231640371200
+    m_Localized: Previous
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88342936227840
+    m_Localized: Save Building
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94529354272768
+    m_Localized: Building name is required
+    m_Metadata:
+      m_Items: []
+  - m_Id: 287347536367616
+    m_Localized: Latitude is required
+    m_Metadata:
+      m_Items: []
+  - m_Id: 287479405285376
+    m_Localized: Longitude is required
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288932085698560
+    m_Localized: Building created successfully!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289246104850432
+    m_Localized: Please wait...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289636816850944
+    m_Localized: Please select a location on the map before saving!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
