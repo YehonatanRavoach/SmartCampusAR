@@ -1,0 +1,1778 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.53f1 (df4e529d20d3) revision 14634578'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'he' Physical Memory: 7918 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.53f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Adir/ARfinalproject
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50081
+Successfully changed project path to: C:/Users/Adir/ARfinalproject
+C:/Users/Adir/ARfinalproject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4448]  Target information:
+
+Player connection [4448]  * "[IP] 192.168.1.128 [Port] 0 [Flags] 2 [Guid] 3774958811 [EditorId] 3774958811 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-L6U42GQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [4448] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [4448] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+Refreshing native plugins compatible for Editor in 15744.28 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.53f1 (df4e529d20d3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.53f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Adir/ARfinalproject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   Intel
+    VRAM:     3959 MB
+    Driver:   31.0.101.5333
+Invalid texture used for cursor - check importer settings or texture creation. Texture must be RGBA32, readable, have alphaIsTransparency enabled and have no mip chain.
+Failed to set the cursor because the specified texture ('icon_192x1921') was not CPU accessible.
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.53f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.53f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.53f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56852
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.53f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.53f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.53f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.53f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.53f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.949973 seconds.
+- Loaded All Assemblies, in 12.795 seconds
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for AppleTV target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 548 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.230 seconds
+Domain Reload Profiling: 15024ms
+	BeginReloadAssembly (8186ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (735ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (1055ms)
+	LoadAllAssembliesAndSetupDomain (2805ms)
+		LoadAssemblies (8182ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (2798ms)
+			TypeCache.Refresh (2794ms)
+				TypeCache.ScanAssembly (2322ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (2230ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2113ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1753ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (252ms)
+			ProcessInitializeOnLoadMethodAttributes (93ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 26.463 seconds
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Soft Shadows are enabled in URP settings. This is not supported by the free version of Shadow Receiver URP
+Disable it or consider upgrading to the paid version of Shadow Receiver URP: <a href="https://assetstore.unity.com/packages/vfx/shaders/shadow-receiver-urp-directional-additional-light-shadows-228069?aid=1100ljSxt">Shadow Receiver URP https://assetstore.unity.com/packages/vfx/shaders/shadow-receiver-urp-directional-additional-light-shadows-228069?aid=1100ljSxt</a> 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+DevDunk.ShadowReceiver.EditorTools.URPChecker:CompilationStarted () (at Assets/DevDunkStudio/ShadowReceiverURP/Editor/SettingsChecker.cs:20)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/DevDunkStudio/ShadowReceiverURP/Editor/SettingsChecker.cs Line: 20)
+
+Asset Pipeline Refresh (id=c6db0a1a43a3c9c45a8c19fef0134bf1): Total: 0.001 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  5.390 seconds
+Domain Reload Profiling: 31821ms
+	BeginReloadAssembly (296ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (94ms)
+	LoadAllAssembliesAndSetupDomain (25979ms)
+		LoadAssemblies (24660ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1508ms)
+			TypeCache.Refresh (1396ms)
+				TypeCache.ScanAssembly (1225ms)
+			ScanForSourceGeneratedMonoScriptInfo (84ms)
+			ResolveRequiredComponents (26ms)
+	FinalizeReload (5390ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (5028ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (54ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (294ms)
+			ProcessInitializeOnLoadAttributes (4298ms)
+			ProcessInitializeOnLoadMethodAttributes (359ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 84.51 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 55 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 217 unused Assets / (4.0 MB). Loaded Objects now: 9226.
+Memory consumption went from 153.2 MB to 149.1 MB.
+Total: 13.272400 ms (FindLiveObjects: 2.114400 ms CreateObjectMapping: 0.690900 ms MarkObjects: 7.773400 ms  DeleteObjects: 2.691600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 48034.295593 seconds.
+  path: Assets/Scripts/ActionSheetController.cs
+  artifactKey: Guid(81a4acca341966a41b4d3122e333a82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ActionSheetController.cs using Guid(81a4acca341966a41b4d3122e333a82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0d5925385044550839172d6e16a7c4ab') in 0.019242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  6.834 seconds
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.RenderPipelineValidation..cctor () [0x0000d] in C:\Users\Adir\ARfinalproject\Assets\Samples\XR Interaction Toolkit\3.0.4\Starter Assets\Scripts\MaterialPipelineHandler.cs:16 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Soft Shadows are enabled in URP settings. This is not supported by the free version of Shadow Receiver URP
+Disable it or consider upgrading to the paid version of Shadow Receiver URP: <a href="https://assetstore.unity.com/packages/vfx/shaders/shadow-receiver-urp-directional-additional-light-shadows-228069?aid=1100ljSxt">Shadow Receiver URP https://assetstore.unity.com/packages/vfx/shaders/shadow-receiver-urp-directional-additional-light-shadows-228069?aid=1100ljSxt</a> 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+DevDunk.ShadowReceiver.EditorTools.URPChecker:CompilationStarted () (at Assets/DevDunkStudio/ShadowReceiverURP/Editor/SettingsChecker.cs:20)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/DevDunkStudio/ShadowReceiverURP/Editor/SettingsChecker.cs Line: 20)
+
+Asset Pipeline Refresh (id=e199cf60194718d4d99b86702dc43bf4): Total: 0.003 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in 32.245 seconds
+Domain Reload Profiling: 39078ms
+	BeginReloadAssembly (1203ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (36ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (552ms)
+	RebuildCommonClasses (154ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (222ms)
+	LoadAllAssembliesAndSetupDomain (5215ms)
+		LoadAssemblies (4762ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (800ms)
+			TypeCache.Refresh (207ms)
+				TypeCache.ScanAssembly (8ms)
+			ScanForSourceGeneratedMonoScriptInfo (457ms)
+			ResolveRequiredComponents (127ms)
+	FinalizeReload (32255ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (6038ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1107ms)
+			SetLoadedEditorAssemblies (40ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (511ms)
+			ProcessInitializeOnLoadAttributes (3396ms)
+			ProcessInitializeOnLoadMethodAttributes (935ms)
+			AfterProcessingInitializeOnLoad (33ms)
+			EditorAssembliesLoaded (16ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (84ms)
+Refreshing native plugins compatible for Editor in 183.11 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4443 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 212 unused Assets / (5.1 MB). Loaded Objects now: 9231.
+Memory consumption went from 220.0 MB to 214.9 MB.
+Total: 915.049400 ms (FindLiveObjects: 24.009600 ms CreateObjectMapping: 5.081000 ms MarkObjects: 849.347200 ms  DeleteObjects: 36.603900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 904a26a8f9ec054704c2a75b58c05601 -> fe4c28c49daad5bddcadadc1141df416
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/GalleryPickerScript1.cs: df39e71d564592f909eb4f651a1957cc -> a4b1d6c61b511179e3253dc49accdeb8
+  custom:scripting/monoscript/fileName/ImageClickHandler1.cs: 618cab79d99ac76bdf8ad91d5c86b9b9 -> 3161fe73da9fafb6959ee49ed67f0fbb
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/IPointerClickHandler.cs: 8a6bbc19057ec42b2708a6af90c383db -> 6e6fcb567e003116bff49dbb60ab8232
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  7.281 seconds
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.RenderPipelineValidation..cctor () [0x0000d] in C:\Users\Adir\ARfinalproject\Assets\Samples\XR Interaction Toolkit\3.0.4\Starter Assets\Scripts\MaterialPipelineHandler.cs:16 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Soft Shadows are enabled in URP settings. This is not supported by the free version of Shadow Receiver URP
+Disable it or consider upgrading to the paid version of Shadow Receiver URP: <a href="https://assetstore.unity.com/packages/vfx/shaders/shadow-receiver-urp-directional-additional-light-shadows-228069?aid=1100ljSxt">Shadow Receiver URP https://assetstore.unity.com/packages/vfx/shaders/shadow-receiver-urp-directional-additional-light-shadows-228069?aid=1100ljSxt</a> 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+DevDunk.ShadowReceiver.EditorTools.URPChecker:CompilationStarted () (at Assets/DevDunkStudio/ShadowReceiverURP/Editor/SettingsChecker.cs:20)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/DevDunkStudio/ShadowReceiverURP/Editor/SettingsChecker.cs Line: 20)
+
+Asset Pipeline Refresh (id=afacd74b8003a674991affd6fed73412): Total: 0.000 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in 13.386 seconds
+Domain Reload Profiling: 20643ms
+	BeginReloadAssembly (903ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (27ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (337ms)
+	RebuildCommonClasses (134ms)
+	RebuildNativeTypeToScriptingClass (42ms)
+	initialDomainReloadingComplete (158ms)
+	LoadAllAssembliesAndSetupDomain (6018ms)
+		LoadAssemblies (6026ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (325ms)
+			TypeCache.Refresh (86ms)
+				TypeCache.ScanAssembly (7ms)
+			ScanForSourceGeneratedMonoScriptInfo (172ms)
+			ResolveRequiredComponents (61ms)
+	FinalizeReload (13388ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2348ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (75ms)
+			SetLoadedEditorAssemblies (15ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (224ms)
+			ProcessInitializeOnLoadAttributes (1718ms)
+			ProcessInitializeOnLoadMethodAttributes (301ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (3ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (32ms)
+Refreshing native plugins compatible for Editor in 80.89 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4443 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 212 unused Assets / (5.0 MB). Loaded Objects now: 9236.
+Memory consumption went from 219.9 MB to 214.9 MB.
+Total: 17.964600 ms (FindLiveObjects: 0.881400 ms CreateObjectMapping: 0.496000 ms MarkObjects: 9.166200 ms  DeleteObjects: 7.418600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MapMarkerManager.cs: ce2f2580d9594463457f6db2c13c11e1 -> 831570386b0d929629ea55ae396e8a98
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 1128d78bd1114a66e047350c804ae598 -> fe4c28c49daad5bddcadadc1141df416
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/GalleryPickerScript1.cs: df39e71d564592f909eb4f651a1957cc -> a4b1d6c61b511179e3253dc49accdeb8
+  custom:scripting/monoscript/fileName/ImageClickHandler1.cs: 618cab79d99ac76bdf8ad91d5c86b9b9 -> 3161fe73da9fafb6959ee49ed67f0fbb
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/IPointerClickHandler.cs: 8a6bbc19057ec42b2708a6af90c383db -> 6e6fcb567e003116bff49dbb60ab8232
+========================================================================
+Received Import Request.
+  Time since last request: 767.266387 seconds.
+  path: Assets/StandaloneFileBrowser/Sample/BasicSample.cs
+  artifactKey: Guid(5148400295519405d82bb0fa65246ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StandaloneFileBrowser/Sample/BasicSample.cs using Guid(5148400295519405d82bb0fa65246ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c4eaf7f8deab6cbc54954cd10caa582c') in 0.147096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.232451 seconds.
+  path: Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileImage.cs
+  artifactKey: Guid(331c95b7bf39e4792acecff50a972040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileImage.cs using Guid(331c95b7bf39e4792acecff50a972040) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd5bce289c13c67254b5d385fb34b70bd') in 0.003051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.974708 seconds.
+  path: Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileText.cs
+  artifactKey: Guid(99a65d6437df64949b37cba4eadc67a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileText.cs using Guid(99a65d6437df64949b37cba4eadc67a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '62684536bbf76b74d0609392f7c7b1ba') in 0.007072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.554430 seconds.
+  path: Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileTextMultiple.cs
+  artifactKey: Guid(71c09849449d61e47a4599e06b964998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileTextMultiple.cs using Guid(71c09849449d61e47a4599e06b964998) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '62e1078f39192df8e0bab2d863a5a3f2') in 0.003540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  6.015 seconds
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.RenderPipelineValidation..cctor () [0x0000d] in C:\Users\Adir\ARfinalproject\Assets\Samples\XR Interaction Toolkit\3.0.4\Starter Assets\Scripts\MaterialPipelineHandler.cs:16 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Soft Shadows are enabled in URP settings. This is not supported by the free version of Shadow Receiver URP
+Disable it or consider upgrading to the paid version of Shadow Receiver URP: <a href="https://assetstore.unity.com/packages/vfx/shaders/shadow-receiver-urp-directional-additional-light-shadows-228069?aid=1100ljSxt">Shadow Receiver URP https://assetstore.unity.com/packages/vfx/shaders/shadow-receiver-urp-directional-additional-light-shadows-228069?aid=1100ljSxt</a> 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+DevDunk.ShadowReceiver.EditorTools.URPChecker:CompilationStarted () (at Assets/DevDunkStudio/ShadowReceiverURP/Editor/SettingsChecker.cs:20)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/DevDunkStudio/ShadowReceiverURP/Editor/SettingsChecker.cs Line: 20)
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in 14.098 seconds
+Domain Reload Profiling: 20103ms
+	BeginReloadAssembly (2799ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (185ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (724ms)
+	RebuildCommonClasses (187ms)
+	RebuildNativeTypeToScriptingClass (37ms)
+	initialDomainReloadingComplete (249ms)
+	LoadAllAssembliesAndSetupDomain (2731ms)
+		LoadAssemblies (2839ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (586ms)
+			TypeCache.Refresh (184ms)
+				TypeCache.ScanAssembly (12ms)
+			ScanForSourceGeneratedMonoScriptInfo (255ms)
+			ResolveRequiredComponents (140ms)
+	FinalizeReload (14100ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2072ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (108ms)
+			SetLoadedEditorAssemblies (39ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (297ms)
+			ProcessInitializeOnLoadAttributes (1435ms)
+			ProcessInitializeOnLoadMethodAttributes (183ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Refreshing native plugins compatible for Editor in 319.48 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8707 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 212 unused Assets / (5.1 MB). Loaded Objects now: 9241.
+Memory consumption went from 287.8 MB to 282.7 MB.
+Total: 677.178200 ms (FindLiveObjects: 99.571300 ms CreateObjectMapping: 2.247500 ms MarkObjects: 449.058400 ms  DeleteObjects: 126.292800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MapMarkerManager.cs: ce2f2580d9594463457f6db2c13c11e1 -> 831570386b0d929629ea55ae396e8a98
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 1128d78bd1114a66e047350c804ae598 -> fe4c28c49daad5bddcadadc1141df416
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/GalleryPickerScript1.cs: df39e71d564592f909eb4f651a1957cc -> a4b1d6c61b511179e3253dc49accdeb8
+  custom:scripting/monoscript/fileName/ImageClickHandler1.cs: 618cab79d99ac76bdf8ad91d5c86b9b9 -> 3161fe73da9fafb6959ee49ed67f0fbb
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/IPointerClickHandler.cs: 8a6bbc19057ec42b2708a6af90c383db -> 6e6fcb567e003116bff49dbb60ab8232
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  5.509 seconds
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.RenderPipelineValidation..cctor () [0x0000d] in C:\Users\Adir\ARfinalproject\Assets\Samples\XR Interaction Toolkit\3.0.4\Starter Assets\Scripts\MaterialPipelineHandler.cs:16 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Soft Shadows are enabled in URP settings. This is not supported by the free version of Shadow Receiver URP
+Disable it or consider upgrading to the paid version of Shadow Receiver URP: <a href="https://assetstore.unity.com/packages/vfx/shaders/shadow-receiver-urp-directional-additional-light-shadows-228069?aid=1100ljSxt">Shadow Receiver URP https://assetstore.unity.com/packages/vfx/shaders/shadow-receiver-urp-directional-additional-light-shadows-228069?aid=1100ljSxt</a> 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+DevDunk.ShadowReceiver.EditorTools.URPChecker:CompilationStarted () (at Assets/DevDunkStudio/ShadowReceiverURP/Editor/SettingsChecker.cs:20)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/DevDunkStudio/ShadowReceiverURP/Editor/SettingsChecker.cs Line: 20)
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in 24.867 seconds
+Domain Reload Profiling: 30368ms
+	BeginReloadAssembly (1826ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (45ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (1112ms)
+	RebuildCommonClasses (97ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (101ms)
+	LoadAllAssembliesAndSetupDomain (3454ms)
+		LoadAssemblies (3531ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (266ms)
+			TypeCache.Refresh (104ms)
+				TypeCache.ScanAssembly (7ms)
+			ScanForSourceGeneratedMonoScriptInfo (109ms)
+			ResolveRequiredComponents (52ms)
+	FinalizeReload (24869ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2355ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (78ms)
+			SetLoadedEditorAssemblies (18ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (268ms)
+			ProcessInitializeOnLoadAttributes (1630ms)
+			ProcessInitializeOnLoadMethodAttributes (347ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (3ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (57ms)
+Refreshing native plugins compatible for Editor in 105.74 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8707 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 212 unused Assets / (5.0 MB). Loaded Objects now: 9246.
+Memory consumption went from 287.7 MB to 282.7 MB.
+Total: 19.476200 ms (FindLiveObjects: 1.052900 ms CreateObjectMapping: 0.693500 ms MarkObjects: 10.597000 ms  DeleteObjects: 7.130500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MapMarkerManager.cs: ce2f2580d9594463457f6db2c13c11e1 -> 831570386b0d929629ea55ae396e8a98
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: adbfb898e9cef28a3b4089cd2a4200d9 -> fe4c28c49daad5bddcadadc1141df416
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/GalleryPickerScript1.cs: df39e71d564592f909eb4f651a1957cc -> a4b1d6c61b511179e3253dc49accdeb8
+  custom:scripting/monoscript/fileName/ImageClickHandler1.cs: 618cab79d99ac76bdf8ad91d5c86b9b9 -> 3161fe73da9fafb6959ee49ed67f0fbb
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/IPointerClickHandler.cs: 8a6bbc19057ec42b2708a6af90c383db -> 6e6fcb567e003116bff49dbb60ab8232
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  8.582 seconds
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.RenderPipelineValidation..cctor () [0x0000d] in C:\Users\Adir\ARfinalproject\Assets\Samples\XR Interaction Toolkit\3.0.4\Starter Assets\Scripts\MaterialPipelineHandler.cs:16 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Soft Shadows are enabled in URP settings. This is not supported by the free version of Shadow Receiver URP
+Disable it or consider upgrading to the paid version of Shadow Receiver URP: <a href="https://assetstore.unity.com/packages/vfx/shaders/shadow-receiver-urp-directional-additional-light-shadows-228069?aid=1100ljSxt">Shadow Receiver URP https://assetstore.unity.com/packages/vfx/shaders/shadow-receiver-urp-directional-additional-light-shadows-228069?aid=1100ljSxt</a> 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+DevDunk.ShadowReceiver.EditorTools.URPChecker:CompilationStarted () (at Assets/DevDunkStudio/ShadowReceiverURP/Editor/SettingsChecker.cs:20)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/DevDunkStudio/ShadowReceiverURP/Editor/SettingsChecker.cs Line: 20)
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in 14.408 seconds
+Domain Reload Profiling: 22978ms
+	BeginReloadAssembly (2284ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (164ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (6ms)
+		CreateAndSetChildDomain (586ms)
+	RebuildCommonClasses (119ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (148ms)
+	LoadAllAssembliesAndSetupDomain (5993ms)
+		LoadAssemblies (5753ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (590ms)
+			TypeCache.Refresh (121ms)
+				TypeCache.ScanAssembly (8ms)
+			ScanForSourceGeneratedMonoScriptInfo (357ms)
+			ResolveRequiredComponents (107ms)
+	FinalizeReload (14409ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1787ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (64ms)
+			SetLoadedEditorAssemblies (15ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (195ms)
+			ProcessInitializeOnLoadAttributes (1320ms)
+			ProcessInitializeOnLoadMethodAttributes (183ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Refreshing native plugins compatible for Editor in 72.05 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8707 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 212 unused Assets / (5.1 MB). Loaded Objects now: 9251.
+Memory consumption went from 287.8 MB to 282.7 MB.
+Total: 22.424000 ms (FindLiveObjects: 3.267000 ms CreateObjectMapping: 0.960600 ms MarkObjects: 12.208200 ms  DeleteObjects: 5.979800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MapMarkerManager.cs: ce2f2580d9594463457f6db2c13c11e1 -> 831570386b0d929629ea55ae396e8a98
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 85c94d7eabd9be4c9f6406dc72135097 -> fe4c28c49daad5bddcadadc1141df416
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/GalleryPickerScript1.cs: df39e71d564592f909eb4f651a1957cc -> a4b1d6c61b511179e3253dc49accdeb8
+  custom:scripting/monoscript/fileName/ImageClickHandler1.cs: 618cab79d99ac76bdf8ad91d5c86b9b9 -> 3161fe73da9fafb6959ee49ed67f0fbb
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/IPointerClickHandler.cs: 8a6bbc19057ec42b2708a6af90c383db -> 6e6fcb567e003116bff49dbb60ab8232
+========================================================================
+Received Import Request.
+  Time since last request: 841.493221 seconds.
+  path: Assets/Scripts/ARnavigation/LocationPermissionManager.cs
+  artifactKey: Guid(42eaee40f4df80646a2c6010fa7139a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ARnavigation/LocationPermissionManager.cs using Guid(42eaee40f4df80646a2c6010fa7139a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '14666ccfcfbe6c6c29bde0bfbb1b0adc') in 0.037161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  7.738 seconds
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.RenderPipelineValidation..cctor () [0x0000d] in C:\Users\Adir\ARfinalproject\Assets\Samples\XR Interaction Toolkit\3.0.4\Starter Assets\Scripts\MaterialPipelineHandler.cs:16 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Soft Shadows are enabled in URP settings. This is not supported by the free version of Shadow Receiver URP
+Disable it or consider upgrading to the paid version of Shadow Receiver URP: <a href="https://assetstore.unity.com/packages/vfx/shaders/shadow-receiver-urp-directional-additional-light-shadows-228069?aid=1100ljSxt">Shadow Receiver URP https://assetstore.unity.com/packages/vfx/shaders/shadow-receiver-urp-directional-additional-light-shadows-228069?aid=1100ljSxt</a> 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+DevDunk.ShadowReceiver.EditorTools.URPChecker:CompilationStarted () (at Assets/DevDunkStudio/ShadowReceiverURP/Editor/SettingsChecker.cs:20)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/DevDunkStudio/ShadowReceiverURP/Editor/SettingsChecker.cs Line: 20)
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in 31.055 seconds
+Domain Reload Profiling: 38788ms
+	BeginReloadAssembly (1490ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (47ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (3ms)
+		CreateAndSetChildDomain (453ms)
+	RebuildCommonClasses (307ms)
+	RebuildNativeTypeToScriptingClass (112ms)
+	initialDomainReloadingComplete (265ms)
+	LoadAllAssembliesAndSetupDomain (5556ms)
+		LoadAssemblies (5926ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (304ms)
+			TypeCache.Refresh (90ms)
+				TypeCache.ScanAssembly (6ms)
+			ScanForSourceGeneratedMonoScriptInfo (161ms)
+			ResolveRequiredComponents (49ms)
+	FinalizeReload (31059ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3765ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (96ms)
+			SetLoadedEditorAssemblies (30ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (378ms)
+			ProcessInitializeOnLoadAttributes (2892ms)
+			ProcessInitializeOnLoadMethodAttributes (299ms)
+			AfterProcessingInitializeOnLoad (67ms)
+			EditorAssembliesLoaded (3ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (124ms)
+Refreshing native plugins compatible for Editor in 187.42 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8707 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 212 unused Assets / (5.1 MB). Loaded Objects now: 9256.
+Memory consumption went from 287.8 MB to 282.7 MB.
+Total: 588.183400 ms (FindLiveObjects: 29.984100 ms CreateObjectMapping: 3.690700 ms MarkObjects: 496.000500 ms  DeleteObjects: 58.500700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MapMarkerManager.cs: ce2f2580d9594463457f6db2c13c11e1 -> 831570386b0d929629ea55ae396e8a98
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: c880df17dc649eef05674d61719260dd -> fe4c28c49daad5bddcadadc1141df416
+  custom:scripting/monoscript/fileName/LocationPermissionManager.cs: 55a170a8eec46b87a3033a8380c9c6b2 -> 20924513426f53106d584d9cbdd4ab37
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/GalleryPickerScript1.cs: df39e71d564592f909eb4f651a1957cc -> a4b1d6c61b511179e3253dc49accdeb8
+  custom:scripting/monoscript/fileName/ImageClickHandler1.cs: 618cab79d99ac76bdf8ad91d5c86b9b9 -> 3161fe73da9fafb6959ee49ed67f0fbb
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/KeepLowestLargePlane.cs: ba5cd2289e97bf22d2d2cb443a237e50 -> 5027166804348ed922ebbdecd64ad67d
+  custom:scripting/monoscript/fileName/IPointerClickHandler.cs: 8a6bbc19057ec42b2708a6af90c383db -> 6e6fcb567e003116bff49dbb60ab8232
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  7.548 seconds
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.RenderPipelineValidation..cctor () [0x0000d] in C:\Users\Adir\ARfinalproject\Assets\Samples\XR Interaction Toolkit\3.0.4\Starter Assets\Scripts\MaterialPipelineHandler.cs:16 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Soft Shadows are enabled in URP settings. This is not supported by the free version of Shadow Receiver URP
+Disable it or consider upgrading to the paid version of Shadow Receiver URP: <a href="https://assetstore.unity.com/packages/vfx/shaders/shadow-receiver-urp-directional-additional-light-shadows-228069?aid=1100ljSxt">Shadow Receiver URP https://assetstore.unity.com/packages/vfx/shaders/shadow-receiver-urp-directional-additional-light-shadows-228069?aid=1100ljSxt</a> 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+DevDunk.ShadowReceiver.EditorTools.URPChecker:CompilationStarted () (at Assets/DevDunkStudio/ShadowReceiverURP/Editor/SettingsChecker.cs:20)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/DevDunkStudio/ShadowReceiverURP/Editor/SettingsChecker.cs Line: 20)
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in 10.590 seconds
+Domain Reload Profiling: 18126ms
+	BeginReloadAssembly (1985ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (32ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (697ms)
+	RebuildCommonClasses (135ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (167ms)
+	LoadAllAssembliesAndSetupDomain (5218ms)
+		LoadAssemblies (5703ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (465ms)
+			TypeCache.Refresh (129ms)
+				TypeCache.ScanAssembly (11ms)
+			ScanForSourceGeneratedMonoScriptInfo (256ms)
+			ResolveRequiredComponents (74ms)
+	FinalizeReload (10592ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3945ms)
+			LogAssemblyErrors (1ms)
+			InitializePlatformSupportModulesInManaged (119ms)
+			SetLoadedEditorAssemblies (35ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (446ms)
+			ProcessInitializeOnLoadAttributes (2934ms)
+			ProcessInitializeOnLoadMethodAttributes (396ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (43ms)
+Refreshing native plugins compatible for Editor in 157.33 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8707 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 212 unused Assets / (5.0 MB). Loaded Objects now: 9261.
+Memory consumption went from 287.7 MB to 282.7 MB.
+Total: 26.463900 ms (FindLiveObjects: 1.431600 ms CreateObjectMapping: 1.636000 ms MarkObjects: 15.914400 ms  DeleteObjects: 7.475900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MapMarkerManager.cs: ce2f2580d9594463457f6db2c13c11e1 -> 831570386b0d929629ea55ae396e8a98
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 577a7b66b93f6f42d78f5503fc98d341 -> fe4c28c49daad5bddcadadc1141df416
+  custom:scripting/monoscript/fileName/LocationPermissionManager.cs: 55a170a8eec46b87a3033a8380c9c6b2 -> 20924513426f53106d584d9cbdd4ab37
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Billboard.cs: 2a6ea7501b18c439e1554beef38841fd -> 63718781f6e53fffc8020eb125684fb4
+  custom:scripting/monoscript/fileName/GalleryPickerScript1.cs: df39e71d564592f909eb4f651a1957cc -> a4b1d6c61b511179e3253dc49accdeb8
+  custom:scripting/monoscript/fileName/ImageClickHandler1.cs: 618cab79d99ac76bdf8ad91d5c86b9b9 -> 3161fe73da9fafb6959ee49ed67f0fbb
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/KeepLowestLargePlane.cs: ba5cd2289e97bf22d2d2cb443a237e50 -> 5027166804348ed922ebbdecd64ad67d
+  custom:scripting/monoscript/fileName/IPointerClickHandler.cs: 8a6bbc19057ec42b2708a6af90c383db -> 6e6fcb567e003116bff49dbb60ab8232
+========================================================================
+Received Import Request.
+  Time since last request: 212.833402 seconds.
+  path: Assets/Editor Default Resources/Firebase/fb_analytics.png
+  artifactKey: Guid(dc218b335b1d14cd5ae532f65042d829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor Default Resources/Firebase/fb_analytics.png using Guid(dc218b335b1d14cd5ae532f65042d829) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd2c44205e437e338aa0a849d0bc52061') in 0.381009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Editor Default Resources/Firebase/fb_config_dark.png
+  artifactKey: Guid(0ad9ef5fff5524355a9670c90a99cbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor Default Resources/Firebase/fb_config_dark.png using Guid(0ad9ef5fff5524355a9670c90a99cbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'dc56679411c7aa2527bc6e7562cf5aee') in 0.089291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Editor Default Resources/Firebase/fb_database_dark.png
+  artifactKey: Guid(9f6bfa9d8aefb40dc92461c372c73b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor Default Resources/Firebase/fb_database_dark.png using Guid(9f6bfa9d8aefb40dc92461c372c73b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '836f2bbeea463aeb33cda0dde4d177e1') in 0.093119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Editor Default Resources/Firebase/fb_functions.png
+  artifactKey: Guid(953367231f9e3e22e70e5d1c91a40fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor Default Resources/Firebase/fb_functions.png using Guid(953367231f9e3e22e70e5d1c91a40fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b295179632c227a03d80a44d722939e4') in 0.107386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Editor Default Resources/Firebase/fb_storage_dark.png
+  artifactKey: Guid(2955864b938094f579ea9902b65ac10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor Default Resources/Firebase/fb_storage_dark.png using Guid(2955864b938094f579ea9902b65ac10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '349c52cf89976208f91f7d9f481f222f') in 0.065268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Editor Default Resources/Firebase/fb_auth.png
+  artifactKey: Guid(394b3ec4d60c24476a12e4ba696d9e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor Default Resources/Firebase/fb_auth.png using Guid(394b3ec4d60c24476a12e4ba696d9e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c95d70c6fff2f5af12f7a488beb4e3a3') in 0.108861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Editor Default Resources/Firebase/fb_config.png
+  artifactKey: Guid(415eaec414af14d11955222a282aca08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor Default Resources/Firebase/fb_config.png using Guid(415eaec414af14d11955222a282aca08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '012e1f846f78e6c7a20dfb05cb068dd2') in 0.075983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Editor Default Resources/Firebase/fb_invites_dark.png
+  artifactKey: Guid(a734ad7414926404e90f8b5be37b7e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor Default Resources/Firebase/fb_invites_dark.png using Guid(a734ad7414926404e90f8b5be37b7e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7f6a71848a799958bf8176b7e4deefaa') in 0.133081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Editor Default Resources/Firebase/fb_invites.png
+  artifactKey: Guid(741b269777f30488482ef4937b456b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor Default Resources/Firebase/fb_invites.png using Guid(741b269777f30488482ef4937b456b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '253a6ed06d45285f8a5f8cd2b08bf9f0') in 0.086500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 90.911609 seconds.
+  path: Assets/Scripts/GeneralScripts
+  artifactKey: Guid(329464ea06bb5174c90a53c11fce1893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GeneralScripts using Guid(329464ea06bb5174c90a53c11fce1893) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5ee6bf77dc70617a98db9af0108b8609') in 0.004736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 17.498 seconds
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.RenderPipelineValidation..cctor () [0x0000d] in C:\Users\Adir\ARfinalproject\Assets\Samples\XR Interaction Toolkit\3.0.4\Starter Assets\Scripts\MaterialPipelineHandler.cs:16 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Soft Shadows are enabled in URP settings. This is not supported by the free version of Shadow Receiver URP
+Disable it or consider upgrading to the paid version of Shadow Receiver URP: <a href="https://assetstore.unity.com/packages/vfx/shaders/shadow-receiver-urp-directional-additional-light-shadows-228069?aid=1100ljSxt">Shadow Receiver URP https://assetstore.unity.com/packages/vfx/shaders/shadow-receiver-urp-directional-additional-light-shadows-228069?aid=1100ljSxt</a> 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+DevDunk.ShadowReceiver.EditorTools.URPChecker:CompilationStarted () (at Assets/DevDunkStudio/ShadowReceiverURP/Editor/SettingsChecker.cs:20)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/DevDunkStudio/ShadowReceiverURP/Editor/SettingsChecker.cs Line: 20)
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in 20.994 seconds
+Domain Reload Profiling: 38475ms
+	BeginReloadAssembly (5252ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (46ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (1355ms)
+	RebuildCommonClasses (1297ms)
+	RebuildNativeTypeToScriptingClass (44ms)
+	initialDomainReloadingComplete (462ms)
+	LoadAllAssembliesAndSetupDomain (10425ms)
+		LoadAssemblies (13056ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (865ms)
+			TypeCache.Refresh (279ms)
+				TypeCache.ScanAssembly (15ms)
+			ScanForSourceGeneratedMonoScriptInfo (495ms)
+			ResolveRequiredComponents (86ms)
+	FinalizeReload (20995ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2823ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (72ms)
+			SetLoadedEditorAssemblies (18ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (270ms)
+			ProcessInitializeOnLoadAttributes (2255ms)
+			ProcessInitializeOnLoadMethodAttributes (198ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (33ms)
+Refreshing native plugins compatible for Editor in 90.22 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8707 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 212 unused Assets / (5.1 MB). Loaded Objects now: 9270.
+Memory consumption went from 287.9 MB to 282.8 MB.
+Total: 21.248000 ms (FindLiveObjects: 2.063800 ms CreateObjectMapping: 0.823000 ms MarkObjects: 10.071800 ms  DeleteObjects: 8.286800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/FirebaseAuthHandler.cs: 898b3cc3db2d459a08d65f88f21f2935 -> b954dc45cbf1277526a76a4b5738a518
+  custom:scripting/monoscript/fileName/AdminDataLocal.cs: ac91920896712e5b8635c2273e00d069 -> 0f020e56675ac128175646a0eba524f1
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MapMarkerManager.cs: ce2f2580d9594463457f6db2c13c11e1 -> 831570386b0d929629ea55ae396e8a98
+  custom:scripting/monoscript/fileName/SceneLoader.cs: 5ce9fb469a60c722e148f37800208389 -> 5c0816849d186432ffce5e360c37577f
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: ed5464fe0ad3c3e814011d080bc1dc49 -> fe4c28c49daad5bddcadadc1141df416
+  custom:scripting/monoscript/fileName/LocationPermissionManager.cs: 55a170a8eec46b87a3033a8380c9c6b2 -> 20924513426f53106d584d9cbdd4ab37
+  custom:scripting/monoscript/fileName/SearchDropdown.cs: 57b9fa8fb4e57db0be964216be6074ea -> 30bc2a0b7a2de73a3aa160e458d63dd5
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/ConfirmationDialog.cs: cea053963f285206cf280c2d1ae46bdf -> de3cc1ba741325b53379f9f7c04381d3
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Billboard.cs: 2a6ea7501b18c439e1554beef38841fd -> 63718781f6e53fffc8020eb125684fb4
+  custom:scripting/monoscript/fileName/GalleryPickerScript1.cs: df39e71d564592f909eb4f651a1957cc -> a4b1d6c61b511179e3253dc49accdeb8
+  custom:scripting/monoscript/fileName/CampusDataHolder.cs: d1a374a0c91c0284c05afbe4b0a3c66a -> 4d0850769c8cd89f2ce7c82efbdbd0a0
+  custom:scripting/monoscript/fileName/ImageClickHandler1.cs: 618cab79d99ac76bdf8ad91d5c86b9b9 -> 3161fe73da9fafb6959ee49ed67f0fbb
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/ActionSheetController.cs: 6c0e21ca29a765967f15fab662edc51a -> ab59a85ccef70d9546bc958fb7ebbcc5
+  custom:scripting/monoscript/fileName/KeepLowestLargePlane.cs: ba5cd2289e97bf22d2d2cb443a237e50 -> 5027166804348ed922ebbdecd64ad67d
+  custom:scripting/monoscript/fileName/IPointerClickHandler.cs: 8a6bbc19057ec42b2708a6af90c383db -> 6e6fcb567e003116bff49dbb60ab8232
+========================================================================
+Received Import Request.
+  Time since last request: 694.767971 seconds.
+  path: Assets/DevDunkStudio/ShadowReceiverURP/Editor/DevDunk.ShadowReceiver.Editor.asmdef
+  artifactKey: Guid(499193ca9d414d84eb4a1fd48f0d751c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DevDunkStudio/ShadowReceiverURP/Editor/DevDunk.ShadowReceiver.Editor.asmdef using Guid(499193ca9d414d84eb4a1fd48f0d751c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8241ea250ad46394dd182a1db58d51a9') in 1.089858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 226.024474 seconds.
+  path: Assets/Scripts/System Administrator
+  artifactKey: Guid(b00a761922a13b74e9ddce63b1f02b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/System Administrator using Guid(b00a761922a13b74e9ddce63b1f02b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '507765947ea397949c766d5531b1e235') in 0.043503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 12.162 seconds
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.RenderPipelineValidation..cctor () [0x0000d] in C:\Users\Adir\ARfinalproject\Assets\Samples\XR Interaction Toolkit\3.0.4\Starter Assets\Scripts\MaterialPipelineHandler.cs:16 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Soft Shadows are enabled in URP settings. This is not supported by the free version of Shadow Receiver URP
+Disable it or consider upgrading to the paid version of Shadow Receiver URP: <a href="https://assetstore.unity.com/packages/vfx/shaders/shadow-receiver-urp-directional-additional-light-shadows-228069?aid=1100ljSxt">Shadow Receiver URP https://assetstore.unity.com/packages/vfx/shaders/shadow-receiver-urp-directional-additional-light-shadows-228069?aid=1100ljSxt</a> 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+DevDunk.ShadowReceiver.EditorTools.URPChecker:CompilationStarted () (at Assets/DevDunkStudio/ShadowReceiverURP/Editor/SettingsChecker.cs:20)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/DevDunkStudio/ShadowReceiverURP/Editor/SettingsChecker.cs Line: 20)
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in 39.265 seconds
+Domain Reload Profiling: 51447ms
+	BeginReloadAssembly (1825ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (48ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (844ms)
+	RebuildCommonClasses (142ms)
+	RebuildNativeTypeToScriptingClass (41ms)
+	initialDomainReloadingComplete (124ms)
+	LoadAllAssembliesAndSetupDomain (10048ms)
+		LoadAssemblies (7325ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (3178ms)
+			TypeCache.Refresh (476ms)
+				TypeCache.ScanAssembly (78ms)
+			ScanForSourceGeneratedMonoScriptInfo (2134ms)
+			ResolveRequiredComponents (551ms)
+	FinalizeReload (39267ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (5658ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (224ms)
+			SetLoadedEditorAssemblies (37ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (491ms)
+			ProcessInitializeOnLoadAttributes (4307ms)
+			ProcessInitializeOnLoadMethodAttributes (571ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (16ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (63ms)
+Refreshing native plugins compatible for Editor in 104.89 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8707 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 212 unused Assets / (5.1 MB). Loaded Objects now: 9275.
+Memory consumption went from 287.9 MB to 282.8 MB.
+Total: 262.954000 ms (FindLiveObjects: 6.965100 ms CreateObjectMapping: 3.152600 ms MarkObjects: 69.529300 ms  DeleteObjects: 183.300000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/FirebaseAuthHandler.cs: 898b3cc3db2d459a08d65f88f21f2935 -> b954dc45cbf1277526a76a4b5738a518
+  custom:scripting/monoscript/fileName/AdminDataLocal.cs: ac91920896712e5b8635c2273e00d069 -> 0f020e56675ac128175646a0eba524f1
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MapMarkerManager.cs: ce2f2580d9594463457f6db2c13c11e1 -> 831570386b0d929629ea55ae396e8a98
+  custom:scripting/monoscript/fileName/SceneLoader.cs: 5ce9fb469a60c722e148f37800208389 -> 5c0816849d186432ffce5e360c37577f
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: ed5464fe0ad3c3e814011d080bc1dc49 -> fe4c28c49daad5bddcadadc1141df416
+  custom:scripting/monoscript/fileName/LocationPermissionManager.cs: 55a170a8eec46b87a3033a8380c9c6b2 -> 20924513426f53106d584d9cbdd4ab37
+  custom:scripting/monoscript/fileName/SearchDropdown.cs: 57b9fa8fb4e57db0be964216be6074ea -> 30bc2a0b7a2de73a3aa160e458d63dd5
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/ConfirmationDialog.cs: cea053963f285206cf280c2d1ae46bdf -> de3cc1ba741325b53379f9f7c04381d3
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Billboard.cs: 2a6ea7501b18c439e1554beef38841fd -> 63718781f6e53fffc8020eb125684fb4
+  custom:scripting/monoscript/fileName/GalleryPickerScript1.cs: df39e71d564592f909eb4f651a1957cc -> a4b1d6c61b511179e3253dc49accdeb8
+  custom:scripting/monoscript/fileName/CampusDataHolder.cs: d1a374a0c91c0284c05afbe4b0a3c66a -> 4d0850769c8cd89f2ce7c82efbdbd0a0
+  custom:scripting/monoscript/fileName/ImageClickHandler1.cs: 618cab79d99ac76bdf8ad91d5c86b9b9 -> 3161fe73da9fafb6959ee49ed67f0fbb
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/ActionSheetController.cs: 6c0e21ca29a765967f15fab662edc51a -> ab59a85ccef70d9546bc958fb7ebbcc5
+  custom:scripting/monoscript/fileName/KeepLowestLargePlane.cs: ba5cd2289e97bf22d2d2cb443a237e50 -> 5027166804348ed922ebbdecd64ad67d
+  custom:scripting/monoscript/fileName/IPointerClickHandler.cs: 8a6bbc19057ec42b2708a6af90c383db -> 6e6fcb567e003116bff49dbb60ab8232
+========================================================================
+Received Import Request.
+  Time since last request: 454.272789 seconds.
+  path: Assets/Scripts/HomeScreen/CampusStartItem.cs
+  artifactKey: Guid(7b9e5f9a96c77de4d9d0682accc4691e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HomeScreen/CampusStartItem.cs using Guid(7b9e5f9a96c77de4d9d0682accc4691e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5a50534c8423fd82e11dc32dfce23af1') in 0.066047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5447.456148 seconds.
+  path: Assets/Prefabs/arrow.prefab
+  artifactKey: Guid(9e16cc3dfa9d468478f9c9697af7e626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/arrow.prefab using Guid(9e16cc3dfa9d468478f9c9697af7e626) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3ee2015d60b98666791fd93acd1eee2b') in 11.989864 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 1085.705373 seconds.
+  path: Assets/Scenes/CreateAccount.unity
+  artifactKey: Guid(f19801a3b63dccd419a8cfc97c0f5a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/CreateAccount.unity using Guid(f19801a3b63dccd419a8cfc97c0f5a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a37388895bd61d2ad1b81a829dd1b011') in 0.032199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 116.663971 seconds.
+  path: Assets/Scenes/ARnavigation.unity
+  artifactKey: Guid(9b42d5f29bafe7441a0946755432250b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ARnavigation.unity using Guid(9b42d5f29bafe7441a0946755432250b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ac954249d2004c18d0a6f4d5ba39e4ce') in 0.017403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 21.997 seconds
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.RenderPipelineValidation..cctor () [0x0000d] in C:\Users\Adir\ARfinalproject\Assets\Samples\XR Interaction Toolkit\3.0.4\Starter Assets\Scripts\MaterialPipelineHandler.cs:16 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Soft Shadows are enabled in URP settings. This is not supported by the free version of Shadow Receiver URP
+Disable it or consider upgrading to the paid version of Shadow Receiver URP: <a href="https://assetstore.unity.com/packages/vfx/shaders/shadow-receiver-urp-directional-additional-light-shadows-228069?aid=1100ljSxt">Shadow Receiver URP https://assetstore.unity.com/packages/vfx/shaders/shadow-receiver-urp-directional-additional-light-shadows-228069?aid=1100ljSxt</a> 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+DevDunk.ShadowReceiver.EditorTools.URPChecker:CompilationStarted () (at Assets/DevDunkStudio/ShadowReceiverURP/Editor/SettingsChecker.cs:20)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/DevDunkStudio/ShadowReceiverURP/Editor/SettingsChecker.cs Line: 20)
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in 90.281 seconds
+Domain Reload Profiling: 112275ms
+	BeginReloadAssembly (5536ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (880ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (6ms)
+		CreateAndSetChildDomain (2253ms)
+	RebuildCommonClasses (408ms)
+	RebuildNativeTypeToScriptingClass (49ms)
+	initialDomainReloadingComplete (151ms)
+	LoadAllAssembliesAndSetupDomain (15844ms)
+		LoadAssemblies (16525ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (386ms)
+			TypeCache.Refresh (138ms)
+				TypeCache.ScanAssembly (6ms)
+			ScanForSourceGeneratedMonoScriptInfo (155ms)
+			ResolveRequiredComponents (90ms)
+	FinalizeReload (90286ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (5433ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (143ms)
+			SetLoadedEditorAssemblies (105ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (401ms)
+			ProcessInitializeOnLoadAttributes (4408ms)
+			ProcessInitializeOnLoadMethodAttributes (360ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (4ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (38ms)
+Refreshing native plugins compatible for Editor in 106.85 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8707 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 214 unused Assets / (5.0 MB). Loaded Objects now: 9321.
+Memory consumption went from 288.2 MB to 283.2 MB.
+Total: 96.463700 ms (FindLiveObjects: 4.267300 ms CreateObjectMapping: 0.840400 ms MarkObjects: 81.617800 ms  DeleteObjects: 9.733100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/FirebaseAuthHandler.cs: 898b3cc3db2d459a08d65f88f21f2935 -> b954dc45cbf1277526a76a4b5738a518
+  custom:scripting/monoscript/fileName/AdminDataLocal.cs: ac91920896712e5b8635c2273e00d069 -> 0f020e56675ac128175646a0eba524f1
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MapMarkerManager.cs: ce2f2580d9594463457f6db2c13c11e1 -> 831570386b0d929629ea55ae396e8a98
+  custom:scripting/monoscript/fileName/SceneLoader.cs: 5ce9fb469a60c722e148f37800208389 -> 5c0816849d186432ffce5e360c37577f
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: ed5464fe0ad3c3e814011d080bc1dc49 -> fe4c28c49daad5bddcadadc1141df416
+  custom:scripting/monoscript/fileName/LocationPermissionManager.cs: 55a170a8eec46b87a3033a8380c9c6b2 -> 20924513426f53106d584d9cbdd4ab37
+  custom:scripting/monoscript/fileName/SearchDropdown.cs: 57b9fa8fb4e57db0be964216be6074ea -> 30bc2a0b7a2de73a3aa160e458d63dd5
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/ConfirmationDialog.cs: cea053963f285206cf280c2d1ae46bdf -> de3cc1ba741325b53379f9f7c04381d3
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Billboard.cs: 2a6ea7501b18c439e1554beef38841fd -> 63718781f6e53fffc8020eb125684fb4
+  custom:scripting/monoscript/fileName/GalleryPickerScript1.cs: df39e71d564592f909eb4f651a1957cc -> a4b1d6c61b511179e3253dc49accdeb8
+  custom:scripting/monoscript/fileName/CampusDataHolder.cs: d1a374a0c91c0284c05afbe4b0a3c66a -> 4d0850769c8cd89f2ce7c82efbdbd0a0
+  custom:scripting/monoscript/fileName/ImageClickHandler1.cs: 618cab79d99ac76bdf8ad91d5c86b9b9 -> 3161fe73da9fafb6959ee49ed67f0fbb
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/ActionSheetController.cs: 6c0e21ca29a765967f15fab662edc51a -> ab59a85ccef70d9546bc958fb7ebbcc5
+  custom:scripting/monoscript/fileName/KeepLowestLargePlane.cs: ba5cd2289e97bf22d2d2cb443a237e50 -> 5027166804348ed922ebbdecd64ad67d
+  custom:scripting/monoscript/fileName/IPointerClickHandler.cs: 8a6bbc19057ec42b2708a6af90c383db -> 6e6fcb567e003116bff49dbb60ab8232
+========================================================================
+Received Import Request.
+  Time since last request: 842.832627 seconds.
+  path: Assets/Scripts/AddEditBuildingPage
+  artifactKey: Guid(8bf5e059fec124543ba13950d62bdd3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AddEditBuildingPage using Guid(8bf5e059fec124543ba13950d62bdd3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0c0796576fd1e3002d8a551b447b19d7') in 0.433497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 199.363312 seconds.
+  path: Assets/Scenes/ARnavigation.unity
+  artifactKey: Guid(9b42d5f29bafe7441a0946755432250b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ARnavigation.unity using Guid(9b42d5f29bafe7441a0946755432250b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7577ad70f42a39467f731140a97130ba') in 0.018125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 15.929 seconds
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.RenderPipelineValidation..cctor () [0x0000d] in C:\Users\Adir\ARfinalproject\Assets\Samples\XR Interaction Toolkit\3.0.4\Starter Assets\Scripts\MaterialPipelineHandler.cs:16 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Soft Shadows are enabled in URP settings. This is not supported by the free version of Shadow Receiver URP
+Disable it or consider upgrading to the paid version of Shadow Receiver URP: <a href="https://assetstore.unity.com/packages/vfx/shaders/shadow-receiver-urp-directional-additional-light-shadows-228069?aid=1100ljSxt">Shadow Receiver URP https://assetstore.unity.com/packages/vfx/shaders/shadow-receiver-urp-directional-additional-light-shadows-228069?aid=1100ljSxt</a> 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+DevDunk.ShadowReceiver.EditorTools.URPChecker:CompilationStarted () (at Assets/DevDunkStudio/ShadowReceiverURP/Editor/SettingsChecker.cs:20)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/DevDunkStudio/ShadowReceiverURP/Editor/SettingsChecker.cs Line: 20)
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in 34.332 seconds
+Domain Reload Profiling: 50221ms
+	BeginReloadAssembly (7597ms)
+		ExecutionOrderSort (10ms)
+		DisableScriptedObjects (299ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (6ms)
+		CreateAndSetChildDomain (2950ms)
+	RebuildCommonClasses (404ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (376ms)
+	LoadAllAssembliesAndSetupDomain (7478ms)
+		LoadAssemblies (8257ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (742ms)
+			TypeCache.Refresh (335ms)
+				TypeCache.ScanAssembly (22ms)
+			ScanForSourceGeneratedMonoScriptInfo (296ms)
+			ResolveRequiredComponents (101ms)
+	FinalizeReload (34335ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3209ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (88ms)
+			SetLoadedEditorAssemblies (29ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (364ms)
+			ProcessInitializeOnLoadAttributes (2335ms)
+			ProcessInitializeOnLoadMethodAttributes (365ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (7ms)
+		ExecutionOrderSort2 (1ms)
+		AwakeInstancesAfterBackupRestoration (88ms)
+Refreshing native plugins compatible for Editor in 100.31 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8709 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 214 unused Assets / (5.2 MB). Loaded Objects now: 9326.
+Memory consumption went from 288.7 MB to 283.6 MB.
+Total: 38.251300 ms (FindLiveObjects: 2.897400 ms CreateObjectMapping: 0.648400 ms MarkObjects: 24.920400 ms  DeleteObjects: 9.780500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/FirebaseAuthHandler.cs: 898b3cc3db2d459a08d65f88f21f2935 -> b954dc45cbf1277526a76a4b5738a518
+  custom:scripting/monoscript/fileName/AdminDataLocal.cs: ac91920896712e5b8635c2273e00d069 -> 0f020e56675ac128175646a0eba524f1
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MapMarkerManager.cs: ce2f2580d9594463457f6db2c13c11e1 -> 831570386b0d929629ea55ae396e8a98
+  custom:scripting/monoscript/fileName/SceneLoader.cs: 5ce9fb469a60c722e148f37800208389 -> 5c0816849d186432ffce5e360c37577f
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: ed5464fe0ad3c3e814011d080bc1dc49 -> fe4c28c49daad5bddcadadc1141df416
+  custom:scripting/monoscript/fileName/LocationPermissionManager.cs: 55a170a8eec46b87a3033a8380c9c6b2 -> 20924513426f53106d584d9cbdd4ab37
+  custom:scripting/monoscript/fileName/SearchDropdown.cs: 57b9fa8fb4e57db0be964216be6074ea -> 30bc2a0b7a2de73a3aa160e458d63dd5
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/ConfirmationDialog.cs: cea053963f285206cf280c2d1ae46bdf -> de3cc1ba741325b53379f9f7c04381d3
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Billboard.cs: 2a6ea7501b18c439e1554beef38841fd -> 63718781f6e53fffc8020eb125684fb4
+  custom:scripting/monoscript/fileName/GalleryPickerScript1.cs: df39e71d564592f909eb4f651a1957cc -> a4b1d6c61b511179e3253dc49accdeb8
+  custom:scripting/monoscript/fileName/CampusDataHolder.cs: d1a374a0c91c0284c05afbe4b0a3c66a -> 4d0850769c8cd89f2ce7c82efbdbd0a0
+  custom:scripting/monoscript/fileName/ImageClickHandler1.cs: 618cab79d99ac76bdf8ad91d5c86b9b9 -> 3161fe73da9fafb6959ee49ed67f0fbb
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/ActionSheetController.cs: 6c0e21ca29a765967f15fab662edc51a -> ab59a85ccef70d9546bc958fb7ebbcc5
+  custom:scripting/monoscript/fileName/KeepLowestLargePlane.cs: ba5cd2289e97bf22d2d2cb443a237e50 -> 5027166804348ed922ebbdecd64ad67d
+  custom:scripting/monoscript/fileName/IPointerClickHandler.cs: 8a6bbc19057ec42b2708a6af90c383db -> 6e6fcb567e003116bff49dbb60ab8232
+========================================================================
+Received Import Request.
+  Time since last request: 9512.327587 seconds.
+  path: Assets/Plugins/tvOS/Firebase/libFirebaseCppApp.a
+  artifactKey: Guid(46cff64d2cc446bb8fb0137f39fbbf57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/tvOS/Firebase/libFirebaseCppApp.a using Guid(46cff64d2cc446bb8fb0137f39fbbf57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '782ef704a8d4092d39a3467ac3903751') in 5.054342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 8.470064 seconds.
+  path: Assets/Firebase/Plugins/x86_64/FirebaseCppApp-12_7_0.dll
+  artifactKey: Guid(9329cc1ef73e40aab67a3afa0b9d549b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Firebase/Plugins/x86_64/FirebaseCppApp-12_7_0.dll using Guid(9329cc1ef73e40aab67a3afa0b9d549b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c0a20a76c1fdd2eeee66f7f3c045bd61') in 0.018921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.842067 seconds.
+  path: Assets/Firebase/Plugins/x86_64/FirebaseCppApp-12_7_0.so
+  artifactKey: Guid(0f5aa73cf6bd43a6983946cfa483feb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Firebase/Plugins/x86_64/FirebaseCppApp-12_7_0.so using Guid(0f5aa73cf6bd43a6983946cfa483feb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b340fb57cb062664b881a56a3c756d97') in 0.021406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.280558 seconds.
+  path: Assets/Plugins/iOS/Firebase/libFirebaseCppApp.a
+  artifactKey: Guid(601e8e1d2d2744929ede33676cbeccc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/iOS/Firebase/libFirebaseCppApp.a using Guid(601e8e1d2d2744929ede33676cbeccc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e1da3f76e7dcf6b22f475bc2a70c65c0') in 0.024368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3754.092118 seconds.
+  path: Assets/Scripts/GeneralScripts/SearchDropdown.cs
+  artifactKey: Guid(c63446b481c0c30428554b81ec5ead53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GeneralScripts/SearchDropdown.cs using Guid(c63446b481c0c30428554b81ec5ead53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f3fca01ffcb082f9e0a47fe149946e17') in 0.061331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 24.807 seconds
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.RenderPipelineValidation..cctor () [0x0000d] in C:\Users\Adir\ARfinalproject\Assets\Samples\XR Interaction Toolkit\3.0.4\Starter Assets\Scripts\MaterialPipelineHandler.cs:16 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Soft Shadows are enabled in URP settings. This is not supported by the free version of Shadow Receiver URP
+Disable it or consider upgrading to the paid version of Shadow Receiver URP: <a href="https://assetstore.unity.com/packages/vfx/shaders/shadow-receiver-urp-directional-additional-light-shadows-228069?aid=1100ljSxt">Shadow Receiver URP https://assetstore.unity.com/packages/vfx/shaders/shadow-receiver-urp-directional-additional-light-shadows-228069?aid=1100ljSxt</a> 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+DevDunk.ShadowReceiver.EditorTools.URPChecker:CompilationStarted () (at Assets/DevDunkStudio/ShadowReceiverURP/Editor/SettingsChecker.cs:20)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/DevDunkStudio/ShadowReceiverURP/Editor/SettingsChecker.cs Line: 20)
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in 91.042 seconds
+Domain Reload Profiling: 115856ms
+	BeginReloadAssembly (6948ms)
+		ExecutionOrderSort (21ms)
+		DisableScriptedObjects (1044ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (4ms)
+		CreateAndSetChildDomain (1402ms)
+	RebuildCommonClasses (383ms)
+	RebuildNativeTypeToScriptingClass (60ms)
+	initialDomainReloadingComplete (362ms)
+	LoadAllAssembliesAndSetupDomain (17058ms)
+		LoadAssemblies (17458ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (520ms)
+			TypeCache.Refresh (165ms)
+				TypeCache.ScanAssembly (11ms)
+			ScanForSourceGeneratedMonoScriptInfo (215ms)
+			ResolveRequiredComponents (125ms)
+	FinalizeReload (91045ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3721ms)
+			LogAssemblyErrors (2ms)
+			InitializePlatformSupportModulesInManaged (187ms)
+			SetLoadedEditorAssemblies (73ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (417ms)
+			ProcessInitializeOnLoadAttributes (2753ms)
+			ProcessInitializeOnLoadMethodAttributes (275ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (4ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (45ms)
+Refreshing native plugins compatible for Editor in 98.06 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8709 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 214 unused Assets / (5.2 MB). Loaded Objects now: 9331.
+Memory consumption went from 288.8 MB to 283.6 MB.
+Total: 29.067700 ms (FindLiveObjects: 2.426000 ms CreateObjectMapping: 1.150300 ms MarkObjects: 18.133800 ms  DeleteObjects: 7.354300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/FirebaseAuthHandler.cs: 898b3cc3db2d459a08d65f88f21f2935 -> b954dc45cbf1277526a76a4b5738a518
+  custom:scripting/monoscript/fileName/AdminDataLocal.cs: ac91920896712e5b8635c2273e00d069 -> 0f020e56675ac128175646a0eba524f1
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MapMarkerManager.cs: ce2f2580d9594463457f6db2c13c11e1 -> 831570386b0d929629ea55ae396e8a98
+  custom:scripting/monoscript/fileName/SceneLoader.cs: 5ce9fb469a60c722e148f37800208389 -> 5c0816849d186432ffce5e360c37577f
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: ed5464fe0ad3c3e814011d080bc1dc49 -> fe4c28c49daad5bddcadadc1141df416
+  custom:scripting/monoscript/fileName/LocationPermissionManager.cs: 55a170a8eec46b87a3033a8380c9c6b2 -> 20924513426f53106d584d9cbdd4ab37
+  custom:scripting/monoscript/fileName/SearchDropdown.cs: 57b9fa8fb4e57db0be964216be6074ea -> 30bc2a0b7a2de73a3aa160e458d63dd5
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/ConfirmationDialog.cs: cea053963f285206cf280c2d1ae46bdf -> de3cc1ba741325b53379f9f7c04381d3
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Billboard.cs: 2a6ea7501b18c439e1554beef38841fd -> 63718781f6e53fffc8020eb125684fb4
+  custom:scripting/monoscript/fileName/GalleryPickerScript1.cs: df39e71d564592f909eb4f651a1957cc -> a4b1d6c61b511179e3253dc49accdeb8
+  custom:scripting/monoscript/fileName/CampusDataHolder.cs: d1a374a0c91c0284c05afbe4b0a3c66a -> 4d0850769c8cd89f2ce7c82efbdbd0a0
+  custom:scripting/monoscript/fileName/ImageClickHandler1.cs: 618cab79d99ac76bdf8ad91d5c86b9b9 -> 3161fe73da9fafb6959ee49ed67f0fbb
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/ActionSheetController.cs: 6c0e21ca29a765967f15fab662edc51a -> ab59a85ccef70d9546bc958fb7ebbcc5
+  custom:scripting/monoscript/fileName/KeepLowestLargePlane.cs: ba5cd2289e97bf22d2d2cb443a237e50 -> 5027166804348ed922ebbdecd64ad67d
+  custom:scripting/monoscript/fileName/IPointerClickHandler.cs: 8a6bbc19057ec42b2708a6af90c383db -> 6e6fcb567e003116bff49dbb60ab8232
